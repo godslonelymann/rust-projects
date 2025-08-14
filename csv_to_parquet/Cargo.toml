@@ -1,6 +1,13 @@
 [package]
-name = "csv_to_parquet"
+name = "csv2parquet"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+clap = { version = "*", features = ["derive"]}
+csv = "*"
+anyhow = "*"
+arrow = "56"
+arrow-csv = "56"
+parquet = { version = "56", features = ["arrow"] }
+

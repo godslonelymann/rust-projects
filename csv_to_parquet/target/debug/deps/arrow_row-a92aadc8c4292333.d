@@ -1,0 +1,9 @@
+/Users/anurag./rust-projects/csv_to_parquet/target/debug/deps/arrow_row-a92aadc8c4292333.d: /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/lib.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/fixed.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/list.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/run.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/variable.rs
+
+/Users/anurag./rust-projects/csv_to_parquet/target/debug/deps/libarrow_row-a92aadc8c4292333.rmeta: /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/lib.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/fixed.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/list.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/run.rs /Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/variable.rs
+
+/Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/lib.rs:
+/Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/fixed.rs:
+/Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/list.rs:
+/Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/run.rs:
+/Users/anurag./.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/arrow-row-56.0.0/src/variable.rs:
