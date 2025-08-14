@@ -4,9 +4,13 @@ fn main(){
 
     let args: Vec<String> = env::args().collect();
 
-    for (i, arg) in args.iter().skip(1).enumerate() {
-        println!("args[{}]: {arg}", i + 1);
+    for arg in args.iter().skip(1) {
+        println!("{arg}");
     }
 
-    println!("Total user args: {}", args.len() - 1);
+    // println!("Total user args: {arg}");
 }
+
+
+//enumerate() - adds index to each command line arg - not necessary just gives index values
+//iter() - look at the items without removing them from the vector
