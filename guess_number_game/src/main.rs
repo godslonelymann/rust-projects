@@ -1,18 +1,38 @@
-//use std::io;
-use std::env;
+use std::io;
+use rand::Rng;
 
 fn main(){
+    println!("Guess the Number!");
 
-    println!("Guess The Number!");
+    let random_num: i64 = rand::thread_rng().gen_range(1..=100);
 
-    let a = env::args().nth(1)
-                       .expect("Enter a Number");
+    
+    loop{
+        println!("Random Number: {random_num}");
+        println!("Enter your guess.");
 
-    println!("Your Guess is: {}", a);
+        let mut guess = String::new();
+        io::stdin().read_line(&mut guess).expect("Invalid type entered");
 
+        let guess: i64 = match guess.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("Enter valid number");
+                continue;
+            }
+        };
 
+        println!("Guess: {guess}");
 
-
+        if guess < random_num {
+            println!("The guess is low.");
+        } else if guess > random_num {
+            println!("The guess is high");
+        } else if guess == random_num {
+            println!("You Win!, {guess} == {random_num}");
+            break;
+        }
+    }
 
 
 }
