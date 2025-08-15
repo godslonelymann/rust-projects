@@ -4,6 +4,7 @@ use rand::Rng;
 fn main(){
     println!("Guess the Number!");
 
+    // create a random number using the rand library
     let random_num: i64 = rand::thread_rng().gen_range(1..=100);
 
     
@@ -14,13 +15,7 @@ fn main(){
         let mut guess = String::new();
         io::stdin().read_line(&mut guess).expect("Invalid type entered");
 
-        let guess: i64 = match guess.trim().parse() {
-            Ok(num) => num,
-            Err(_) => {
-                println!("Enter valid number");
-                continue;
-            }
-        };
+        let guess: i64 = guess.trim().parse().expect("Invalid Number");
 
         println!("Guess: {guess}");
 
